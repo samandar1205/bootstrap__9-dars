@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+            <div class="card">
+                <div class="card-body">
+                    <from action="#" method="get">
+                        <div class="form-group">
+                            <label for="login">logenni kriting</label>
+                            <input type="text" id="login" placeholder="loginni kriting..." class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">parolli kiriting</label>
+                            <input type="password" id="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="dist">qoshimcha</label>
+                            <textarea id="dist" class="form-control" placeholder="qoshimcha ma'lumotlar"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="region">region tanlang</label>
+                            <select name="region" id="region" class="form-control">
+                                <option value="1">Toshkent</option>
+                                <option value="2">Samarqand</option>
+                                <option value="3">Buxora</option>
+                                <option value="4">Xorazm</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-success btn-block">Tizimga kirish</button>
+                    </from>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+            <from action="#">
+                <div class="input-group">
+
+
+
+
+                    <div class="input-group-prepend">
+                        <button type="button" class="btn btn-success dropdown-toggle">Qidiruv</button>
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Toshket</a>
+                        <a href="#" class="dropdown-item">Samarqand</a>
+                        <a href="#" class="dropdown-item">Buxoro</a>
+                        <a href="#" class="dropdown-item">Xorazm</a>
+                    </div>
+
+                <input type="text" class="form-control" id="search" placeholder="Izlash">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-danger">&telrec;</button>
+                </div>
+                </div>
+
+            </from>
+        </div>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
